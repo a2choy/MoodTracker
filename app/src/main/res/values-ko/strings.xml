@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">기분수첩1</string>
+    <string name="anxiety">불안</string>
+    <string name="anger">화</string>
+    <string name="happy">행복</string>
+    <string name="main_title">내 기분수첩</string>
+    <string name="stat">통계</string>
+    <string name="calendar">달력</string>
+    <string name="search">검색</string>
+    <string name="setting">설정</string>
+    <string name="add_title">오늘의 기분?</string>
+    <string name="add2text">활동들: </string>
+    <string name="notables">오늘한일들</string>
+    <string name="toast_select">기분중 하나이상을 안선택하셨습니다</string>
+    <string name="dialog_no_note">노트없이 저장하시겠습니다?</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="search_title">기분 검색</string>
+    <string name="update_delete">업데이트? 삭제?</string>
+    <string name="delete">삭제</string>
+    <string name="update">업데이트</string>
+    <string name="stats">통계:</string>
+    <string name="day">날: </string>
+    <string name="week">주: </string>
+    <string name="month">달: </string>
+    <string name="my_calendar">내 달력</string>
+    <string name="day_limit">이미 기분을 저장하셨습니다</string>
+
+
+</resources>

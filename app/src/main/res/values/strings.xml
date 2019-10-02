@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MoodTracker1</string>
+    <string name="anxiety">Anxiety</string>
+    <string name="anger">Anger</string>
+    <string name="happy">Happy</string>
+    <string name="main_title">My Mood Diary</string>
+    <string name="stat">Stats</string>
+    <string name="calendar">Calendar</string>
+    <string name="search">Search</string>
+    <string name="setting">Settings</string>
+    <string name="add_title">How are you doing?</string>
+    <string name="add2text">Activities: </string>
+    <string name="notables">Notable things you did today</string>
+    <string name="toast_select">You didn\'t select one or more moods</string>
+    <string name="dialog_no_note">Do you want to proceed with no note?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="search_title">Search for Moods</string>
+    <string name="update_delete">Update? Delete?</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="stats">Stats:</string>
+    <string name="day">Day: </string>
+    <string name="week">Week: </string>
+    <string name="month">Month: </string>
+    <string name="my_calendar">My Calendar</string>
+    <string name="day_limit">Already recorded mood for today</string>
+
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MM-DD-YY"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/happy"
+        android:layout_toRightOf="@+id/date"
+        android:layout_marginLeft="25dp"/>
+    <ImageView
+        android:id="@+id/happyIv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/date"
+        android:layout_below="@+id/happy"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/happy" />
+
+    <TextView
+        android:id="@+id/anger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/anger"
+        android:layout_toRightOf="@+id/happy"
+        android:layout_marginLeft="45dp"/>
+    <ImageView
+        android:id="@+id/angerIv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/happy"
+        android:layout_below="@+id/anger"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/sad" />
+
+    <TextView
+        android:id="@+id/anxiety"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/anxiety"
+        android:layout_toRightOf="@+id/anger"
+        android:layout_marginLeft="40dp"/>
+    <ImageView
+        android:id="@+id/anxietyIv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/anger"
+        android:layout_below="@+id/anxiety"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/soso" />
+</RelativeLayout>

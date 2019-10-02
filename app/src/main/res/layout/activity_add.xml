@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_title"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/dayTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MM-DD-YYYY"
+        android:layout_below="@+id/title"
+        android:textSize="25sp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/hourTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HH-MM"
+        android:layout_below="@+id/title"
+        android:layout_toRightOf="@+id/dayTv"
+        android:textSize="25sp"
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="70dp"/>
+
+    <TextView
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/happy"
+        android:textSize="25sp"
+        android:layout_below="@id/hourTv"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/verySadHappy"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/happy"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/very_sad" />
+
+    <ImageView
+        android:id="@+id/sadHappy"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/happy"
+        android:layout_toRightOf="@+id/verySadHappy"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/sad" />
+
+    <ImageView
+        android:id="@+id/sosoHappy"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/happy"
+        android:layout_toRightOf="@+id/sadHappy"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/soso" />
+
+    <ImageView
+        android:id="@+id/happyHappy"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/happy"
+        android:layout_toRightOf="@+id/sosoHappy"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/happy" />
+
+    <ImageView
+        android:id="@+id/veryHappyHappy"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/happy"
+        android:layout_toRightOf="@+id/happyHappy"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/very_happy" />
+
+    <TextView
+        android:id="@+id/anger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/anger"
+        android:textSize="25sp"
+        android:layout_below="@id/sadHappy"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/verySadAnger"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/anger"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/very_sad" />
+
+    <ImageView
+        android:id="@+id/sadAnger"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/anger"
+        android:layout_toRightOf="@+id/verySadAnger"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/sad" />
+
+    <ImageView
+        android:id="@+id/sosoAnger"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/anger"
+        android:layout_toRightOf="@+id/sadAnger"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/soso" />
+
+    <ImageView
+        android:id="@+id/happyAnger"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/anger"
+        android:layout_toRightOf="@+id/sosoAnger"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/happy" />
+
+    <ImageView
+        android:id="@+id/veryHappyAnger"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/anger"
+        android:layout_toRightOf="@+id/happyAnger"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/very_happy" />
+
+    <TextView
+        android:id="@+id/anxiety"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/anxiety"
+        android:textSize="25sp"
+        android:layout_below="@id/sadAnger"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/verySadAnxiety"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/anxiety"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/very_sad" />
+
+    <ImageView
+        android:id="@+id/sadAnxiety"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/anxiety"
+        android:layout_toRightOf="@+id/verySadAnxiety"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/sad" />
+
+    <ImageView
+        android:id="@+id/sosoAnxiety"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/anxiety"
+        android:layout_toRightOf="@+id/sadAnxiety"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/soso" />
+
+    <ImageView
+        android:id="@+id/happyAnxiety"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/anxiety"
+        android:layout_toRightOf="@+id/sosoAnxiety"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/happy" />
+
+    <ImageView
+        android:id="@+id/veryHappyAnxiety"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/anxiety"
+        android:layout_toRightOf="@+id/happyAnxiety"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/very_happy" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/next"
+        android:layout_below="@id/veryHappyAnxiety"/>
+
+</RelativeLayout>

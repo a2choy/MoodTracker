@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MM-DD-YY"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/happy"
+        android:layout_toRightOf="@+id/date"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"/>
+    <ImageView
+        android:id="@+id/happyIv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/date"
+        android:layout_below="@+id/happy"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/happy" />
+
+    <TextView
+        android:id="@+id/anger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/anger"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/happy"
+        android:layout_marginLeft="45dp"/>
+    <ImageView
+        android:id="@+id/angerIv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/happy"
+        android:layout_below="@+id/anger"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/sad" />
+
+    <TextView
+        android:id="@+id/anxiety"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/anxiety"
+        android:layout_toRightOf="@+id/anger"
+        android:layout_marginLeft="40dp"/>
+    <ImageView
+        android:id="@+id/anxietyIv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/anger"
+        android:layout_below="@+id/anxiety"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/soso" />
+    <TextView
+        android:id="@+id/act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:text="@string/add2text"
+        android:textSize="25sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="150dp"/>
+    <TextView
+        android:id="@+id/noteTv"
+        android:layout_width="240dp"
+        android:layout_height="340dp"
+        android:layout_below="@id/date"
+        android:layout_toRightOf="@id/act"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/border"/>
+</RelativeLayout>

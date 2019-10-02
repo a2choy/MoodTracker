@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/happy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/happy" />
+
+        <TextView
+            android:id="@+id/anger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/happy"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/anger" />
+
+        <TextView
+            android:id="@+id/anxiety"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/anger"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/anxiety" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll">
+
+        <ImageView
+            android:id="@+id/happyIv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/happy" />
+
+
+        <ImageView
+            android:id="@+id/angerIv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+
+            android:src="@drawable/sad" />
+
+
+        <ImageView
+            android:id="@+id/anxietyIv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/soso" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:text="@string/add2text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/inputEt"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/ll2"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/text"
+        android:background="@drawable/border"
+        android:gravity="top|left"
+        android:hint="@string/notables"
+        android:padding="5dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/submitBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Submit"
+        android:layout_margin="15dp"
+        android:textSize="20sp"
+        android:background="@drawable/bt_border"/>
+</RelativeLayout>
